@@ -5,3 +5,9 @@ let runnerAge = 19;
 if (earlyRegistration === true && runnerAge > 18) {
   raceNumber += 1000;
 }
+
+if (earlyRegistration === true && runnerAge > 18) {
+  console.log(
+    `Hi, your race will start at 9:30am and your race number is: ${raceNumber}. Goodluck!`
+  );
+}
